@@ -1,0 +1,22 @@
+.form-modal__label-checkbox {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  &::before {
+    content: "";
+    background-image: url(../img/checkbox1.svg);
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 7px;
+  }
+
+  .visually-hidden:checked + &::before {
+    background-image: url(../img/chekbox.svg);
+  }
+}

@@ -1,0 +1,17 @@
+.logo {
+  width: 145px;
+  height: 31px;
+  display: block;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--akcent-color);
+
+  &__container-header {
+    color: #000000;
+  }
+  &__container-footer {
+    color: var(--background-color);
+  }
+}

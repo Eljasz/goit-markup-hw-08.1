@@ -1,0 +1,25 @@
+.hero__button {
+  border: transparent;
+  margin: 0 auto;
+  padding: 10px 32px;
+  border-radius: 6px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  color: var(--background-color);
+  background-color: var(--akcent-color);
+
+  &:hover,
+  &:focus {
+    animation-name: changeBgColor;
+    animation-duration: 3000ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-iteration-count: infinite;
+  }
+}

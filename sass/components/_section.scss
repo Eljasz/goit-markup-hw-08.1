@@ -1,0 +1,19 @@
+.section {
+  padding: 94px 0;
+}
+
+.section--zero-padding-top {
+  padding-top: 0;
+}
+
+.section--team-color {
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: Center;
+  color: var(--title-text-color);
+}

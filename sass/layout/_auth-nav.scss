@@ -1,0 +1,40 @@
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+  align-items: baseline;
+}
+.auth-nav__item + .auth-nav__item {
+  margin-left: 50px;
+}
+
+.auth-nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--akcent-color);
+  }
+}
+.auth-nav__icon {
+  fill: currentColor;
+  margin-right: 10px;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .auth-nav__link:hover &,
+  .auth-nav__link:focus & {
+    fill: var(--akcent-color);
+  }
+}

@@ -1,0 +1,45 @@
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/* утилиты */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+/* класс для сбросса зазора у кнопок */
+button {
+  display: block;
+}
+/* класс для сброса маркеров на списке */
+ul {
+  list-style: none;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* класс для сброса нижнего подчеркивания с ccылок */
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
