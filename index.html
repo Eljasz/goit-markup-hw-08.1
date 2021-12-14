@@ -16,15 +16,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container container__header">
+      <div class="container container--header">
         <nav class="header__nav">
-          <a class="logo" href="#/"
-            >Web<span class="logo__container-header">Studio</span>
+          <a class="logo-header" href="#/"
+            >Web<span class="logo-header__container">Studio</span>
           </a>
           <ul class="site-nav">
             <li class="site-nav__item">
@@ -40,7 +39,48 @@
             </li>
           </ul>
         </nav>
-
+        <!-- START OF MOBILE MENU -->
+        <button class="burger-button" data-menu-open>
+          <svg class="burger-button__icon" width="40px" height="40px">
+            <use href="./img/sprite.svg.svg#icon-burger"></use></svg></button>
+        <div class="mobile-menu is-open" data-menu>
+          <button class="close-button" data-menu-close>
+            <svg class="close-button__icon" width="40px" height="40px"><use href="img/sprite.svg.svg#icon-menu-close"></use></svg></button>
+          <ul class="mobile-nav">
+            <li class="mobile-nav__item">
+              <a href="#" class="mobile-nav__link"
+                >Студия</a
+              >
+            </li>
+            <li class="mobile-nav__item">
+              <a href="./portfolio.html" class="mobile-nav__link">Портфолио</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a href="#" class="mobile-nav__link">Контакты</a>
+            </li>
+          </ul>
+          <div>
+            <ul class="mobile-auth-nav">
+              <li class="mobile-auth-nav__item">
+                <a href="mailto:info@devstudio.com" class="mobile-auth-nav__link">
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="mobile-auth-nav__item">
+                <a href="tel:+380961111111" class="mobile-auth-nav__link mobile-auth-nav__link--blue">
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-social">
+              <li class="mobile-social__item"><a class="mobile-social__link">Instagram</a></li>
+              <li class="mobile-social__item"><a class="mobile-social__link">Twitter</a></li>
+              <li class="mobile-social__item"><a class="mobile-social__link">Facebook</a></li>
+              <li class="mobile-social__item"><a class="mobile-social__link">Linkedln</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- END OF MOBILE MENU -->
         <ul class="auth-nav">
           <li class="auth-nav__item">
             <a href="mailto:info@devstudio.com" class="auth-nav__link">
@@ -61,7 +101,7 @@
         </ul>
       </div>
     </header>
-    <main>
+    <!-- <main>
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">
@@ -71,9 +111,9 @@
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- преимущества -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="feature">
@@ -380,12 +420,12 @@
           </ul>
         </div>
       </section>
-    </main>
-    <footer class="footer">
+    </main> -->
+    <!-- <footer class="footer">
       <div class="container container__footer">
         <div class="address">
-          <a class="logo logo--footer-flex" href="#/"
-            >Web<span class="logo__container-footer">Studio</span></a
+          <a class="logo-footer logo-footer__flex" href="#/"
+            >Web<span class="logo-footer__container">Studio</span></a
           >
           <address class="address-footer">
             <a href="г.Киев,пр-т Леси Украинки,26" class="address-footer__link"
@@ -521,7 +561,8 @@
           <button class="form-modal__button" type="submit">Отправить</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
