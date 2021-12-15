@@ -13,9 +13,9 @@
   }
 }
 .logo-footer{
-  width: 145px;
-  height: 31px;
   display: block;
+  width: 154px;
+  height: 28px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -25,4 +25,9 @@
   &__container {
     color: var(--background-color);
   }
+
+@media screen and (min-width:1200px) {
+  width: 145px;
+  height: 31px;
+}
 }

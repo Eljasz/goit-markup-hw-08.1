@@ -3,14 +3,10 @@
   padding-right: 15px;
   margin: 0 auto;
   @media screen and (min-width:480px) {
-    background-color: teal;
-    outline: tomato 2px solid;
     width: 480px; 
   }
   
 @media screen and (min-width:768px) {
-  background-color: tomato;
-  outline: 2px solid teal;
   width: 768px;
 }
 @media screen and (min-width:1200px){
@@ -29,6 +25,18 @@
 }
 .container--footer {
   display: flex;
+  align-items: center;
+  @media screen and (max-width:767px) {  
+  flex-direction: column; 
+  }
+  @media screen and (min-width:768px) and (max-width:1199px) {
+   flex-wrap: wrap; 
+   align-items: baseline;
+   
+  justify-content: space-between; 
+  }
+  @media screen and (min-width:1200px) {   
+  justify-content: space-between;
   align-items: baseline;
-  justify-content: center;
 }
+  }

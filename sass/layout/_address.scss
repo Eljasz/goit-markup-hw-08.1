@@ -1,3 +1,11 @@
+.address{
+  @media screen and (max-width:767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .address-footer {
   margin-top: 20px;
   margin-bottom: 9px;
