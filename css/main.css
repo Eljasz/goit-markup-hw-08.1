@@ -136,6 +136,7 @@ img {
 }
 
 .mobile-menu.is-open {
+  display: none;
   opacity: 1;
   overflow: visible;
   pointer-events: all;
@@ -423,17 +424,41 @@ img {
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+  }
 }
 
 .grid__item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-  flex-basis: calc((100% - 90px) / 3);
   background: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .grid__item {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid__item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex-basis: calc((100% - 60px) /2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid__item {
+    flex-basis: calc((100% - 90px) / 3);
+  }
 }
 
 .card {
@@ -1402,15 +1427,28 @@ img {
 }
 
 .filter {
-  justify-content: center;
+  margin-bottom: 40px;
   display: flex;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .filter {
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .filter {
+    margin-bottom: 50px;
+  }
 }
 
 .filter__button {
   font-weight: 700;
   border: transparent;
-  min-width: 73px;
   padding: 6px 22px;
   border-radius: 4px;
   font-size: 16px;
@@ -1430,11 +1468,28 @@ img {
 
 .filter__item {
   border-radius: 4px;
-  margin-right: 8px;
   background-color: var(--buttoms-portfolio-background);
 }
 
-.filter__item:nth-child(5n) {
-  margin-right: 0px;
+@media screen and (max-width: 767px) {
+  .filter__item {
+    margin-right: 8px;
+    margin-bottom: 15px;
+  }
+  .filter__item:nth-child(5n) {
+    margin-right: 0px;
+  }
+  .filter__item:nth-child(n + 4) {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter__item {
+    margin-right: 8px;
+  }
+  .filter__item:nth-child(5n) {
+    margin-right: 0px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

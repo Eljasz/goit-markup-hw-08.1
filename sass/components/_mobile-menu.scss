@@ -54,6 +54,8 @@ overflow: hidden;
 }
 
 .mobile-menu.is-open{
+   
+display: none;
 opacity: 1;
 overflow: visible;
 pointer-events: all;
