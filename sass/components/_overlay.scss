@@ -3,6 +3,9 @@
   height: 100%;
   position: relative;
   overflow: hidden;
+  @media screen and (min-width:768px) and (max-width:1199px) {
+    height: auto;
+  }
 }
 .overlay__description {
   top: 0;
