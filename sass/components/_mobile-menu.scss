@@ -78,6 +78,10 @@ color: var(--title-text-color);
 &:focus{
 color: var(--akcent-color);
 }
+
+&--current{
+  color: var(--akcent-color); 
+}
 }
 
 
