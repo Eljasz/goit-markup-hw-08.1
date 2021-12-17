@@ -60,15 +60,16 @@
 }
 
   .hero__title {
-  letter-spacing: 0.06em;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
   width: 360px;
-  line-height: 1.6;
-  font-size: 26px;
+  font-style: normal;
   font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
-  text-transform: uppercase; 
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
   color: var(--background-color);
   @media screen and (min-width:1200px) {
   width: 696px;
