@@ -45,6 +45,8 @@ p,
 ul,
 li,
 button {
+  font-size: inherit;
+  letter-spacing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -847,6 +849,7 @@ img {
 }
 
 .auth-nav__link {
+  font-size: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -924,14 +927,14 @@ img {
 }
 
 .hero__title {
-  margin: 0 auto 30px auto;
-  width: 360px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 360px;
+  line-height: 1.6;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
   text-transform: uppercase;
   color: var(--background-color);
 }
