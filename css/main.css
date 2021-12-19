@@ -45,8 +45,8 @@ p,
 ul,
 li,
 button {
-  font-size: inherit;
   letter-spacing: inherit;
+  font-size: inherit;
   margin: 0;
   padding: 0;
 }
@@ -1489,6 +1489,9 @@ img {
   .filter__item:nth-child(5n) {
     margin-right: 0px;
   }
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px) and (max-width: 767px) {
   .filter__item:nth-child(n + 4) {
     margin-bottom: 0px;
   }
