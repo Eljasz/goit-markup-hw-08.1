@@ -21,15 +21,11 @@
   <body>
     <header class="header">
       <div class="container container--header">
-        <a class="logo-header" href="#/"
-            >Web<span class="logo-header__container">Studio</span>
-          </a>
+        <a class="logo-header" href="#/">Web<span class="logo-header__container">Studio</span> </a>
         <nav class="header__nav">
           <ul class="site-nav">
             <li class="site-nav__item">
-              <a href="#" class="site-nav__link site-nav__link--current"
-                >Студия</a
-              >
+              <a href="#" class="site-nav__link site-nav__link--current">Студия</a>
             </li>
             <li class="site-nav__item">
               <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
@@ -42,15 +38,18 @@
         <!-- START OF MOBILE MENU -->
         <button class="burger-button" data-menu-open>
           <svg class="burger-button__icon" width="40px" height="40px">
-            <use href="./img/sprite.svg.svg#icon-burger"></use></svg></button>
+            <use href="./img/sprite.svg.svg#icon-burger"></use>
+          </svg>
+        </button>
         <div class="mobile-menu" data-menu>
-          <button class="close-button" data-menu-close>
-            <svg class="close-button__icon" width="40px" height="40px"><use href="img/sprite.svg.svg#icon-menu-close"></use></svg></button>
+          <button class="mobile-menu__close-button" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40px" height="40px">
+              <use href="img/sprite.svg.svg#icon-menu-close"></use>
+            </svg>
+          </button>
           <ul class="mobile-nav">
             <li class="mobile-nav__item">
-              <a href="./index.html" class="mobile-nav__link mobile-nav__link--current"
-                >Студия</a
-              >
+              <a href="./index.html" class="mobile-nav__link mobile-nav__link--current">Студия</a>
             </li>
             <li class="mobile-nav__item">
               <a href="./portfolio.html" class="mobile-nav__link">Портфолио</a>
@@ -67,7 +66,10 @@
                 </a>
               </li>
               <li class="mobile-auth-nav__item">
-                <a href="tel:+380961111111" class="mobile-auth-nav__link mobile-auth-nav__link--blue">
+                <a
+                  href="tel:+380961111111"
+                  class="mobile-auth-nav__link mobile-auth-nav__link--blue"
+                >
                   +38 096 111 11 11</a
                 >
               </li>
@@ -81,7 +83,7 @@
           </div>
         </div>
         <!-- END OF MOBILE MENU -->
-         <ul class="auth-nav">
+        <ul class="auth-nav">
           <li class="auth-nav__item">
             <a href="mailto:info@devstudio.com" class="auth-nav__link">
               <svg class="auth-nav__icon" width="16px" height="12px">
@@ -104,12 +106,8 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero__title">
-            Эффективные решения<br />для вашего бизнеса
-          </h1>
-          <button class="hero__button" type="button" data-modal-open>
-            Заказать услугу
-          </button>
+          <h1 class="hero__title">Эффективные решения<br />для вашего бизнеса</h1>
+          <button class="hero__button" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- преимущества -->
@@ -125,8 +123,7 @@
               </div>
               <h3 class="feature__title">Внимание к деталям</h3>
               <p>
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
 
@@ -138,8 +135,7 @@
               </div>
               <h3 class="feature__title">Пунктуальность</h3>
               <p>
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
 
@@ -151,8 +147,7 @@
               </div>
               <h3 class="feature__title">Планирование</h3>
               <p>
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
+                Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="feature__item">
@@ -162,10 +157,7 @@
                 </svg>
               </div>
               <h3 class="feature__title">Современные технологии</h3>
-              <p>
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
+              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
         </div>
@@ -178,35 +170,74 @@
             <li class="work__item">
               <div class="work__img-container">
                 <picture>
-                  <source media="(min-width:1200px)" srcset="./img/occupation/occ-1-desktop.webp 1x, ./img/occupation/occ-1-desktop@2x.webp 2x" type="image/webp">
-                  <source media="(min-width:1200px)" srcset="./img/occupation/occ-1-desktop.jpg 1x, ./img/occupation/occ-1-desktop@2x.jpg 2x">
-                  <img src="./img/occupation/occ-1-desktop.jpg" alt="man-is-writting-code"/>
-                  </picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./img/occupation/occ-1-desktop.webp    1x,
+                      ./img/occupation/occ-1-desktop@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./img/occupation/occ-1-desktop.jpg    1x,
+                      ./img/occupation/occ-1-desktop@2x.jpg 2x
+                    "
+                  />
+                  <img src="./img/occupation/occ-1-desktop.jpg" alt="man-is-writting-code" />
+                </picture>
                 <p class="work__description">Декстопные приложения</p>
               </div>
             </li>
             <li class="work__item">
               <div class="work__img-container">
-               <picture>
-                <source media="(min-width:1200px)" srcset="./img/occupation/occ-2-desktop.webp 1x, ./img/occupation/occ-2-desktop@2x.webp 2x" type="image/webp">
-                <source media="(min-width:1200px)" srcset="./img/occupation/occ-2-desktop.jpg 1x, ./img/occupation/occ-2-desktop@2x.jpg 2x">
-                <img
-                  src="./img/occupation/occ-2-desktop.jpg"
-                  alt="smartfon-on-the-hand-and-notebook"
-                />
-               </picture>
+                <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./img/occupation/occ-2-desktop.webp    1x,
+                      ./img/occupation/occ-2-desktop@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./img/occupation/occ-2-desktop.jpg    1x,
+                      ./img/occupation/occ-2-desktop@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./img/occupation/occ-2-desktop.jpg"
+                    alt="smartfon-on-the-hand-and-notebook"
+                  />
+                </picture>
                 <p class="work__description">Мобильные приложения</p>
               </div>
             </li>
             <li class="work__item">
               <div class="work__img-container">
                 <picture>
-                  <source media="(min-width:1200px)" srcset="./img/occupation/occ-3-desktop.webp 1x, ./img/occupation/occ-3-desktop@2x.webp 2x" type="image/webp">
-                  <source media="(min-width:1200px)" srcset="./img/occupation/occ-3-desktop.jpg 1x, ./img/occupation/occ-3-desktop@2x.jpg 2x">
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./img/occupation/occ-3-desktop.webp    1x,
+                      ./img/occupation/occ-3-desktop@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./img/occupation/occ-3-desktop.jpg    1x,
+                      ./img/occupation/occ-3-desktop@2x.jpg 2x
+                    "
+                  />
                   <img
-                  src="./img/occupation/occ-3-desktop.jpg"
-                  alt="imagine-multicolor-шестиугольника-на-планшете"
-                />
+                    src="./img/occupation/occ-3-desktop.jpg"
+                    alt="imagine-multicolor-шестиугольника-на-планшете"
+                  />
                 </picture>
                 <p class="work__description">Дизайнерские решения</p>
               </div>
@@ -221,28 +252,37 @@
           <ul class="team">
             <li class="team__item">
               <picture>
-                <source media="(min-width:1200px)"
-                srcset="./img/team/team-1-desktop.webp 1x,
-                ./img/team/team-1-desktop@2x.webp 2x" type="image/webp" >
-                  <source media="(min-width:1200px)"
-                  srcset="./img/team/team-1-desktop.jpg 1x,
-                   ./img/team/team-1-desktop@2x.jpg 2x" >
+                <source
+                  media="(min-width:1200px)"
+                  srcset="./img/team/team-1-desktop.webp 1x, ./img/team/team-1-desktop@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1200px)"
+                  srcset="./img/team/team-1-desktop.jpg 1x, ./img/team/team-1-desktop@2x.jpg 2x"
+                />
 
-                <source media="(min-width:768px)"
-                srcset="./img/team/team-1-tablet.webp 1x,
-                ./img/team/team-1-tablet@2x.webp 2x" type="image/webp" >
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-1-tablet.webp 1x, ./img/team/team-1-tablet@2x.webp 2x"
+                  type="image/webp"
+                />
 
-                <source media="(min-width:768px)"
-                srcset="./img/team/team-1-tablet.jpg 1x,
-                ./img/team/team-1-tablet@2x.jpg 2x">
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-1-tablet.jpg 1x, ./img/team/team-1-tablet@2x.jpg 2x"
+                />
 
-                <source media="(min-width:480px)"
-                srcset="./img/team/team-1.webp 1x,
-                 ./img/team/team-1@2x.webp 2x" type="image/webp">
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-1.webp 1x, ./img/team/team-1@2x.webp 2x"
+                  type="image/webp"
+                />
 
-                <source media="(min-width:480px)"
-                srcset="./img/team/team-1.jpg 1x,
-                ./img/team/team-1@2x.jpg 2x ">
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-1.jpg 1x, ./img/team/team-1@2x.jpg 2x"
+                />
                 <img src="./img/team/team-1.jpg" alt="Project-Designer" />
               </picture>
               <div class="team__container">
@@ -250,28 +290,28 @@
                 <p class="team__description">Product Designer</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                       </svg>
@@ -283,45 +323,64 @@
 
             <li class="team__item">
               <picture>
-                <source media="(min-width:1200px)" srcset="./img/team/team-2-desktop.webp 1x, ./img/team/team-2-desktop@2x.webp 2x" type="image/webp"> 
-                <source media="(min-width:1200px)" srcset="./img/team/team-2-desktop.jpg 1x, ./img/team/team-2-desktop@2x.jpg 2x">
+                <source
+                  media="(min-width:1200px)"
+                  srcset="./img/team/team-2-desktop.webp 1x, ./img/team/team-2-desktop@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1200px)"
+                  srcset="./img/team/team-2-desktop.jpg 1x, ./img/team/team-2-desktop@2x.jpg 2x"
+                />
 
-                <source media="(min-width:768px)" srcset="./img/team/team-2-tablet.webp 1x, ./img/team/team-2-tablet@2x.webp 2x" type="image/webp">
-                <source media="(min-width:768px)" srcset="./img/team/team-2-tablet.jpg 1x, ./img/team/team-2-tablet@2x.jpg 2x">
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-2-tablet.webp 1x, ./img/team/team-2-tablet@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-2-tablet.jpg 1x, ./img/team/team-2-tablet@2x.jpg 2x"
+                />
 
-                <source media="(min-width:480px)" srcset="./img/team/team-2.webp 1x, ./img/team/team-2@2x.webp 2x" type="image/webp">
-                <source media="(min-width:480px)" srcset="./img/team/team-2.jpg 1x, ./img/team/team-2@2x.jpg 2x">
-                <img
-                src="./img/team/team-2.jpg"
-                alt="Frontend-Developer"/>
-            </picture>
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-2.webp 1x, ./img/team/team-2@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-2.jpg 1x, ./img/team/team-2@2x.jpg 2x"
+                />
+                <img src="./img/team/team-2.jpg" alt="Frontend-Developer" />
+              </picture>
               <div class="team__container">
                 <h3 class="team__title">Ольга Репина</h3>
                 <p class="team__description">Frontend Developer</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                       </svg>
@@ -333,14 +392,35 @@
 
             <li class="team__item">
               <picture>
-                <source media="(min-width:1200px" srcset="./img/team/team-3-desktop.webp 1x, ./img/team/team-3-desktop@2x.webp 2x" type="image/webp">
-                <source media="(min-width:1200px" srcset="./img/team/team-3-desktop.jpg 1x, ./img/team/team-3-desktop@2x.jpg 2x">
+                <source
+                  media="(min-width:1200px"
+                  srcset="./img/team/team-3-desktop.webp 1x, ./img/team/team-3-desktop@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1200px"
+                  srcset="./img/team/team-3-desktop.jpg 1x, ./img/team/team-3-desktop@2x.jpg 2x"
+                />
 
-                <source media="(min-width:768px)" srcset="./img/team/team-3-tablet.webp 1x, ./img/team/team-3-tablet@2x.webp 2x" type="image/webp">
-                <source media="(min-width:768px)" srcset="./img/team/team-3-tablet.jpg 1x, ./img/team/team-3-tablet@2x.jpg 2x">
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-3-tablet.webp 1x, ./img/team/team-3-tablet@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-3-tablet.jpg 1x, ./img/team/team-3-tablet@2x.jpg 2x"
+                />
 
-                <source media="(min-width:480px)" srcset="./img/team/team-3.webp 1x, ./img/team/team-3@2x.webp 2x" type="image/webp">
-                <source media="(min-width:480px)" srcset="./img/team/team-3.jpg 1x, ./img/team/team-3@2x.jpg 2x">
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-3.webp 1x, ./img/team/team-3@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-3.jpg 1x, ./img/team/team-3@2x.jpg 2x"
+                />
                 <img src="./img/team/team-3.jpg" alt="Marketmeneger" />
               </picture>
               <div class="team__container">
@@ -348,28 +428,28 @@
                 <p class="team__description">Marketing</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                       </svg>
@@ -381,14 +461,35 @@
 
             <li class="team__item">
               <picture>
-                <source media="(min-width:1200px)" srcset="./img/team/team-4-desktop.webp 1x, ./img/team/team-4-desktop@2x.webp 2x" type="image/webp">
-                <source media="(min-width:1200px)" srcset="./img/team/team-4-desktop.jpg 1x, ./img/team/team-4-desktop@2x.jpg 2x">
+                <source
+                  media="(min-width:1200px)"
+                  srcset="./img/team/team-4-desktop.webp 1x, ./img/team/team-4-desktop@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:1200px)"
+                  srcset="./img/team/team-4-desktop.jpg 1x, ./img/team/team-4-desktop@2x.jpg 2x"
+                />
 
-                <source media="(min-width:768px)" srcset="./img/team/team-4-tablet.webp 1x, ./img/team/team-4-tablet@2x.webp 2x" type="image/webp">
-                <source media="(min-width:768px)" srcset="./img/team/team-4-tablet.jpg 1x, ./img/team/team-4-tablet@2x.jpg 2x">
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-4-tablet.webp 1x, ./img/team/team-4-tablet@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="./img/team/team-4-tablet.jpg 1x, ./img/team/team-4-tablet@2x.jpg 2x"
+                />
 
-                <source media="(min-width:480px)" srcset="./img/team/team-4.webp 1x, ./img/team/team-4@2x.webp 2x" type="image/webp">
-                <source media="(min-width:480px)" srcset="./img/team/team-4.jpg 1x, ./img/team/team-4@2x.jpg 2x">
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-4.webp 1x, ./img/team/team-4@2x.webp 2x"
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width:480px)"
+                  srcset="./img/team/team-4.jpg 1x, ./img/team/team-4@2x.jpg 2x"
+                />
                 <img src="./img/team/team-4.jpg" alt="UI-Designer" />
               </picture>
               <div class="team__container">
@@ -396,28 +497,28 @@
                 <p class="team__description">UI Designer</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link social__link--active">
+                    <a href="" class="social__link-network">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                       </svg>
@@ -482,9 +583,7 @@
     <footer class="footer">
       <div class="container container--footer">
         <div class="address">
-          <a class="logo-footer" href="#/"
-            >Web<span class="logo-footer__container">Studio</span></a
-          >
+          <a class="logo-footer" href="#/">Web<span class="logo-footer__container">Studio</span></a>
           <address class="address-footer">
             <a href="г.Киев,пр-т Леси Украинки,26" class="address-footer__link"
               >г. Киев, пр-т Леси Украинки, 26</a
@@ -492,14 +591,10 @@
           </address>
           <ul class="address__list">
             <li class="address__item">
-              <a href="mailto:info@example.com" class="address__link"
-                >info@example.com</a
-              >
+              <a href="mailto:info@example.com" class="address__link">info@example.com</a>
             </li>
             <li class="address__item">
-              <a href="tel:+380991111111" class="address__link"
-                >+380 99 111 11 11</a
-              >
+              <a href="tel:+380991111111" class="address__link">+380 99 111 11 11</a>
             </li>
           </ul>
         </div>
@@ -537,25 +632,20 @@
             </li>
           </ul>
         </div>
-       <div class="form-footer__container">
-        <form class="form-footer">
-          <label class="form-footer__label"
-            >Подпишитесь на рассылку
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              class="form-footer__input"
-            />
-          </label>
-        </form>
-        <button type="submit" class="form-footer__button">
-          Подписаться
-          <svg width="24" height="24" class="form-footer__icon">
-            <use href="./img/sprite.svg.svg#icon-telegram"></use>
-          </svg>
-        </button>
-      </div>
+        <div class="form-footer__container">
+          <form class="form-footer">
+            <label class="form-footer__label"
+              >Подпишитесь на рассылку
+              <input type="email" name="email" placeholder="E-mail" class="form-footer__input" />
+            </label>
+          </form>
+          <button type="submit" class="form-footer__button">
+            Подписаться
+            <svg width="24" height="24" class="form-footer__icon">
+              <use href="./img/sprite.svg.svg#icon-telegram"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <!-- МОДАЛКА -->
@@ -567,9 +657,7 @@
           </svg>
         </button>
         <form class="form-modal">
-          <p class="form-modal__title">
-            Оставте свои данные, мы вам перезвоним
-          </p>
+          <p class="form-modal__title">Оставте свои данные, мы вам перезвоним</p>
           <label class="form-modal__label"
             >Имя
             <span class="form-modal__container">
@@ -608,12 +696,7 @@
             ></textarea>
           </label>
 
-          <input
-            type="checkbox"
-            id="akcept-polisy"
-            required
-            class="visually-hidden"
-          />
+          <input type="checkbox" id="akcept-polisy" required class="visually-hidden" />
           <label for="akcept-polisy" class="form-modal__label-checkbox"
             >Соглашаюсь с рассылкой и принимаю&nbsp;
             <a href="#" class="form-modal__link">Условия договора</a></label
