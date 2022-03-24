@@ -1,24 +1,24 @@
 .auth-nav {
   display: flex;
   align-items: baseline;
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width:768px) and (max-width:1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     flex-direction: column;
   }
 }
 .auth-nav__item + .auth-nav__item {
-  @media screen and (max-width:1199px) { 
-  margin-top: 10px;
+  @media screen and (max-width: 1199px) {
+    margin-top: 10px;
   }
-  @media screen and (min-width:1200px) {
-  margin-left: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
   }
 }
 
 .auth-nav__link {
-  font-size: inherit;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -6,11 +6,11 @@
   line-height: 1.19;
   color: var(--akcent-color);
 
-  &__container{
+  &__container {
     color: #000000;
   }
 }
-.logo-footer{
+.logo-footer {
   display: block;
   width: 154px;
   height: 28px;
@@ -24,8 +24,8 @@
     color: var(--background-color);
   }
 
-@media screen and (min-width:1200px) {
-  width: 145px;
-  height: 31px;
-}
+  @media screen and (min-width: 1200px) {
+    width: 145px;
+    height: 31px;
+  }
 }
