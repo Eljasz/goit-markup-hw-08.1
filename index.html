@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WebStudio">
     <title>GOIT-MARKUP</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -36,13 +37,13 @@
           </ul>
         </nav>
         <!-- START OF MOBILE MENU -->
-        <button type="button" class="burger-button" data-menu-open>
+        <button type="button" class="burger-button" data-menu-open aria-label="кнопка открытия мобильного меню">
           <svg class="burger-button__icon" width="40px" height="40px">
             <use href="./img/sprite.svg.svg#icon-burger"></use>
           </svg>
         </button>
         <div class="mobile-menu" data-menu>
-          <button type="button" class="menu-close__button" data-menu-close>
+          <button type="button" class="menu-close__button" data-menu-close aria-label="кнопка закрытия мобильного меню">
             <svg class="menu-close__icon" width="40px" height="40px">
               <use href="img/sprite.svg.svg#icon-menu-close"></use>
             </svg>
@@ -185,7 +186,11 @@
                       ./img/occupation/occ-1-desktop@2x.jpg 2x
                     "
                   />
-                  <img src="./img/occupation/occ-1-desktop.jpg" alt="man-is-writting-code" />
+                  <img
+                    src="./img/occupation/occ-1-desktop.jpg"
+                    alt="человек пишет код"
+                    width="370"
+                  />
                 </picture>
                 <p class="work__description">Декстопные приложения</p>
               </div>
@@ -210,7 +215,8 @@
                   />
                   <img
                     src="./img/occupation/occ-2-desktop.jpg"
-                    alt="smartfon-on-the-hand-and-notebook"
+                    alt="человек использует гаджеты"
+                    width="370"
                   />
                 </picture>
                 <p class="work__description">Мобильные приложения</p>
@@ -236,7 +242,8 @@
                   />
                   <img
                     src="./img/occupation/occ-3-desktop.jpg"
-                    alt="imagine-multicolor-шестиугольника-на-планшете"
+                    width="370"
+                    alt="изображение разноцветного шестиугольника на планшете"
                   />
                 </picture>
                 <p class="work__description">Дизайнерские решения</p>
@@ -283,37 +290,37 @@
                   media="(min-width:480px)"
                   srcset="./img/team/team-1.jpg 1x, ./img/team/team-1@2x.jpg 2x"
                 />
-                <img src="./img/team/team-1.jpg" alt="Project-Designer" />
+                <img src="./img/team/team-1.jpg" alt="Продакт-Дизайнер" />
               </picture>
               <div class="team__container">
                 <h3 class="team__title">Игорь Демьяненко</h3>
                 <p class="team__description">Product Designer</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Инстаграм">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network " aria-label="ссылка на Твиттер">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Фейсбук">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Линкэдин">
                       <svg class="social__icon" width="20" height="20">
-                        <use href="./img/sprite.svg.svg#icon-linkedin"></use>
+                        <use href="./img/sprite.svg.svg#icon-linkedin" ></use>
                       </svg>
                     </a>
                   </li>
@@ -352,35 +359,35 @@
                   media="(min-width:480px)"
                   srcset="./img/team/team-2.jpg 1x, ./img/team/team-2@2x.jpg 2x"
                 />
-                <img src="./img/team/team-2.jpg" alt="Frontend-Developer" />
+                <img src="./img/team/team-2.jpg" alt="Фронт-Энд разработчица" />
               </picture>
               <div class="team__container">
                 <h3 class="team__title">Ольга Репина</h3>
                 <p class="team__description">Frontend Developer</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Инстаграм">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Твиттер">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Фейсбук">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Линкэдин">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                       </svg>
@@ -421,35 +428,35 @@
                   media="(min-width:480px)"
                   srcset="./img/team/team-3.jpg 1x, ./img/team/team-3@2x.jpg 2x"
                 />
-                <img src="./img/team/team-3.jpg" alt="Marketmeneger" />
+                <img src="./img/team/team-3.jpg" alt="Маркет-менеджер" />
               </picture>
               <div class="team__container">
                 <h3 class="team__title">Николай Тарасов</h3>
                 <p class="team__description">Marketing</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Инстаграм">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Твиттер">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Фейсбук">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Линкэдин">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                       </svg>
@@ -490,35 +497,35 @@
                   media="(min-width:480px)"
                   srcset="./img/team/team-4.jpg 1x, ./img/team/team-4@2x.jpg 2x"
                 />
-                <img src="./img/team/team-4.jpg" alt="UI-Designer" />
+                <img src="./img/team/team-4.jpg" alt="Веб-Дизайнер" />
               </picture>
               <div class="team__container">
                 <h3 class="team__title">Михаил Ермаков</h3>
                 <p class="team__description">UI Designer</p>
                 <ul class="social">
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Инстаграм">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Твиттер">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Фейсбук">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social__item">
-                    <a href="" class="social__link-network">
+                    <a href="" class="social__link-network" aria-label="ссылка на Линкэдин">
                       <svg class="social__icon" width="20" height="20">
                         <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                       </svg>
@@ -535,42 +542,42 @@
           <h2 class="section__title">Постоянные клиенты</h2>
           <ul class="customer">
             <li class="customer__item">
-              <a href="" class="customer__link">
+              <a href="" class="customer__link" aria-label="ссылка на компанию YA & CO link">
                 <svg class="customer__icon" width="106px" height="60px">
                   <use href="./img/sprite.svg.svg#icon-client-1"></use>
                 </svg>
               </a>
             </li>
             <li class="customer__item">
-              <a href="" class="customer__link">
+              <a href="" class="customer__link" aria-label="ссылка на компанию COMPANY Tagline here ">
                 <svg class="customer__icon" width="106px" height="60px">
                   <use href="./img/sprite.svg.svg#icon-client-2"></use>
                 </svg>
               </a>
             </li>
             <li class="customer__item">
-              <a href="" class="customer__link">
+              <a href="" class="customer__link" aria-label="ссылка на компанию COMPANY">
                 <svg class="customer__icon" width="106px" height="60px">
                   <use href="./img/sprite.svg.svg#icon-client-3"></use>
                 </svg>
               </a>
             </li>
             <li class="customer__item">
-              <a href="" class="customer__link">
+              <a href="" class="customer__link" aria-label="ссылка на компанию FOSTER PETERS">
                 <svg class="customer__icon" width="106px" height="60px">
                   <use href="./img/sprite.svg.svg#icon-client-4"></use>
                 </svg>
               </a>
             </li>
             <li class="customer__item">
-              <a href="" class="customer__link">
+              <a href="" class="customer__link" aria-label="ссылка на компанию BRAND">
                 <svg class="customer__icon" width="106px" height="60px">
                   <use href="./img/sprite.svg.svg#icon-client-5"></use>
                 </svg>
               </a>
             </li>
             <li class="customer__item">
-              <a href="" class="customer__link">
+              <a href="" class="customer__link" aria-label="ссылка на компанию COMPANY TAG LINE">
                 <svg class="customer__icon" width="106px" height="60px">
                   <use href="./img/sprite.svg.svg#icon-client-6"></use>
                 </svg>
@@ -603,28 +610,28 @@
           <h3 class="join__title">Присоединяйтесь</h3>
           <ul class="join__list">
             <li class="join__item">
-              <a href="" class="join__link">
+              <a href="" class="join__link" aria-label="ссылка на Инстаграм">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link">
+              <a href="" class="join__link" aria-label="ссылка на Твиттер">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link">
+              <a href="" class="join__link" aria-label="ссылка на Фейсбук">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link">
+              <a href="" class="join__link" aria-label="ссылка на Линкэдин">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./img/sprite.svg.svg#icon-linkedin"></use>
                 </svg>
@@ -651,7 +658,7 @@
     <!-- МОДАЛКА -->
     <div class="backdrop backdrop--is-hidden" data-modal>
       <div class="modal">
-        <button class="modal__button" data-modal-close>
+        <button class="modal__button" data-modal-close aria-label="кнопка для закртия модалки">
           <svg class="modal__icon" width="11" hight="11">
             <use href="./img/sprite.svg.svg#icon-close"></use>
           </svg>
