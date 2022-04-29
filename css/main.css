@@ -961,7 +961,6 @@ img {
   letter-spacing: 0.06em;
   margin: 0 auto;
   margin-bottom: 30px;
-  width: 360px;
   line-height: 1.6;
   font-size: 26px;
   font-weight: 900;
@@ -972,7 +971,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero__title {
-    width: 696px;
     font-size: 44px;
     line-height: 1.36;
   }
@@ -1379,21 +1377,13 @@ img {
 }
 
 .form-footer {
-  width: 358px;
   display: flex;
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-  .form-footer {
-    width: 450px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .form-footer {
-    display: inline;
-    width: 358px;
+    width: 450px;
   }
 }
 
