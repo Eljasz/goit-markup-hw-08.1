@@ -115,6 +115,7 @@ img {
 }
 
 .mobile-menu {
+  visibility: hidden;
   pointer-events: none;
   overflow: hidden;
   opacity: 0;
@@ -132,6 +133,7 @@ img {
 }
 
 .mobile-menu.is-open {
+  visibility: visible;
   opacity: 1;
   overflow: visible;
   pointer-events: all;
@@ -767,6 +769,7 @@ img {
 }
 
 .backdrop--is-hidden {
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
